@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Stillwater Studio — Yoga & Pilates in Bristol</title>
+<meta name="description" content="Stillwater Studio is a calm, light-filled yoga and pilates studio in Bristol. Beginner to advanced classes, expert instructors, flexible memberships and drop-ins. Find your stillness." />
+<link rel="canonical" href="https://boz-demo-stillwater.vercel.app" />
+<meta name="theme-color" content="#8a9a7b" />
+<meta name="author" content="Stillwater Studio" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Stillwater Studio — Yoga & Pilates in Bristol" />
+<meta property="og:description" content="A calm, light-filled yoga and pilates studio in Bristol. Classes for every level, expert instructors and flexible memberships. Find your stillness." />
+<meta property="og:url" content="https://boz-demo-stillwater.vercel.app" />
+<meta property="og:site_name" content="Stillwater Studio" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:image" content="https://picsum.photos/seed/stillwater-og/1200/630" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Stillwater Studio — Yoga & Pilates in Bristol" />
+<meta name="twitter:description" content="A calm, light-filled yoga and pilates studio in Bristol. Classes for every level, expert instructors and flexible memberships." />
+<meta name="twitter:image" content="https://picsum.photos/seed/stillwater-og/1200/630" />
+
+<!-- Inline SVG favicon -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%23f3f0e9'/%3E%3Cpath d='M20 62 Q35 50 50 62 T80 62' stroke='%238a9a7b' stroke-width='5' fill='none' stroke-linecap='round'/%3E%3Cpath d='M20 46 Q35 34 50 46 T80 46' stroke='%23c0967e' stroke-width='5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="styles.css" />
+
+<!-- JSON-LD: HealthClub / LocalBusiness -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HealthClub",
+  "name": "Stillwater Studio",
+  "description": "A calm, light-filled yoga and pilates studio in Bristol offering classes for all levels, expert instructors and flexible memberships.",
+  "url": "https://boz-demo-stillwater.vercel.app",
+  "telephone": "+44 117 496 0182",
+  "email": "hello@stillwaterstudio.co.uk",
+  "image": "https://picsum.photos/seed/stillwater-og/1200/630",
+  "priceRange": "££",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "14 Picton Mews, Montpelier",
+    "addressLocality": "Bristol",
+    "addressRegion": "Bristol",
+    "postalCode": "BS6 5QA",
+    "addressCountry": "GB"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 51.4669,
+    "longitude": -2.5879
+  },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "06:30", "closes": "21:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday","Sunday"], "opens": "08:00", "closes": "18:00" }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/stillwaterstudio",
+    "https://www.facebook.com/stillwaterstudio"
+  ]
+}
+</script>
+
+<!-- JSON-LD: Events (classes) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Event",
+      "name": "Slow Flow Vinyasa",
+      "description": "An unhurried vinyasa class linking breath and movement, suitable for all levels.",
+      "startDate": "2026-07-06T07:00:00+01:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": { "@type": "Place", "name": "Stillwater Studio", "address": "14 Picton Mews, Montpelier, Bristol BS6 5QA" },
+      "organizer": { "@type": "Organization", "name": "Stillwater Studio", "url": "https://boz-demo-stillwater.vercel.app" },
+      "offers": { "@type": "Offer", "price": "16.00", "priceCurrency": "GBP", "availability": "https://schema.org/InStock", "url": "https://boz-demo-stillwater.vercel.app/#timetable" }
+    },
+    {
+      "@type": "Event",
+      "name": "Reformer Pilates",
+      "description": "Equipment-based pilates building core strength and control on the reformer.",
+      "startDate": "2026-07-06T18:30:00+01:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": { "@type": "Place", "name": "Stillwater Studio", "address": "14 Picton Mews, Montpelier, Bristol BS6 5QA" },
+      "organizer": { "@type": "Organization", "name": "Stillwater Studio", "url": "https://boz-demo-stillwater.vercel.app" },
+      "offers": { "@type": "Offer", "price": "22.00", "priceCurrency": "GBP", "availability": "https://schema.org/InStock", "url": "https://boz-demo-stillwater.vercel.app/#timetable" }
+    }
+  ]
+}
+</script>
+
+<!-- JSON-LD: FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "I have never done yoga or pilates before. Where do I start?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Our Beginner classes and Slow Flow Vinyasa are the gentlest places to begin. Arrive ten minutes early, tell your teacher it is your first time, and they will guide you through every pose. Mats and props are provided." }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need to book in advance?",
+      "acceptedAnswer": { "@type": "Answer", "text": "We recommend booking ahead as classes are kept intentionally small. You can reserve any class from the timetable on this site, or drop in if there is space." }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I bring?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Just comfortable clothing and a water bottle. We provide mats, blocks, straps, bolsters and blankets, plus showers and changing rooms on site." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I freeze or cancel my membership?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. Memberships are rolling with no long contracts. You can freeze for up to eight weeks a year, or cancel any time with 30 days' notice." }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- Decorative morphing gradient blobs -->
+<div class="blob-field" aria-hidden="true">
+  <span class="blob blob--sage"></span>
+  <span class="blob blob--clay"></span>
+  <span class="blob blob--mist"></span>
+</div>
+
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a class="brand" href="#top" aria-label="Stillwater Studio home">
+      <svg class="brand-mark" width="34" height="34" viewBox="0 0 100 100" aria-hidden="true">
+        <circle cx="50" cy="50" r="48" fill="none" stroke="currentColor" stroke-width="2" opacity="0.35"/>
+        <path d="M18 60 Q34 48 50 60 T82 60" stroke="var(--sage)" stroke-width="5" fill="none" stroke-linecap="round"/>
+        <path d="M18 44 Q34 32 50 44 T82 44" stroke="var(--clay)" stroke-width="5" fill="none" stroke-linecap="round"/>
+      </svg>
+      <span class="brand-name">Stillwater<span class="brand-sub">Studio</span></span>
+    </a>
+
+    <nav class="main-nav" aria-label="Primary">
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#classes">Classes</a></li>
+        <li><a href="#timetable">Timetable</a></li>
+        <li><a href="#pricing">Membership</a></li>
+        <li><a href="#instructors">Teachers</a></li>
+        <li><a href="#testimonials">Stories</a></li>
+        <li><a href="#visit">Visit</a></li>
+        <li><a class="nav-cta" href="#timetable">Book a class</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="container hero-inner">
+      <p class="eyebrow reveal">Yoga &amp; Pilates · Montpelier, Bristol</p>
+      <h1 id="hero-title" class="reveal">Find your <em>stillness</em>, one breath at a time.</h1>
+      <p class="hero-lead reveal">A calm, light-filled studio where movement is unhurried and every class meets you exactly where you are. Slow flows, strong cores, and a community that breathes together.</p>
+      <div class="hero-actions reveal">
+        <a class="btn btn--primary" href="#timetable">View the timetable</a>
+        <a class="btn btn--ghost" href="#classes">Explore classes</a>
+      </div>
+      <div class="hero-stats reveal" role="list">
+        <div class="stat" role="listitem"><span class="stat-num">12</span><span class="stat-label">classes a week</span></div>
+        <div class="stat" role="listitem"><span class="stat-num">5</span><span class="stat-label">expert teachers</span></div>
+        <div class="stat" role="listitem"><span class="stat-num">14</span><span class="stat-label">max per class</span></div>
+      </div>
+    </div>
+    <div class="hero-media reveal" aria-hidden="true">
+      <div class="hero-photo breathe">
+        <img src="https://picsum.photos/seed/stillwater-hero/720/900" alt="" loading="eager" width="720" height="900" />
+      </div>
+      <div class="hero-card">
+        <span class="hero-card-dot"></span>
+        <p>Next class</p>
+        <strong>Slow Flow · 07:00</strong>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHILOSOPHY -->
+  <section class="philosophy" id="philosophy" aria-labelledby="phil-title">
+    <div class="container narrow">
+      <p class="eyebrow reveal">Our philosophy</p>
+      <h2 id="phil-title" class="reveal">Stillness is not the absence of movement. It is movement, fully attended to.</h2>
+      <p class="reveal">We started Stillwater because the city moves fast and the mind moves faster. Here, the pace is deliberate. We teach in small groups so no one is left behind, we light the room with morning sun rather than fluorescent strips, and we believe rest is as productive as effort. Whether you arrive to build strength, ease an aching back, or simply to breathe, you are welcome exactly as you are.</p>
+      <ul class="value-grid reveal" role="list">
+        <li>
+          <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path d="M12 3c3 4 6 6 6 10a6 6 0 0 1-12 0c0-4 3-6 6-10z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          <h3>Unhurried by design</h3>
+          <p>Long holds, generous transitions, and time to actually feel each pose land.</p>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><circle cx="12" cy="8" r="3.2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M5 20c0-3.5 3-5.5 7-5.5s7 2 7 5.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <h3>Small, kind groups</h3>
+          <p>Capped at fourteen, so teachers know your name and your shoulders.</p>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path d="M4 14c4-1 6-7 8-7s4 6 8 7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="12" cy="18" r="1.4" fill="currentColor"/></svg>
+          <h3>Breath at the centre</h3>
+          <p>Every class begins and ends with the one thing always available to you.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CLASSES -->
+  <section class="classes" id="classes" aria-labelledby="classes-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">What we teach</p>
+        <h2 id="classes-title">Classes for every body, every level.</h2>
+        <p class="section-sub">From the gentlest restorative practice to a sweat-inducing reformer session. Not sure where to begin? Start with anything marked for beginners.</p>
+      </header>
+      <div class="class-grid" id="classCardGrid"><!-- populated by JS, with semantic fallback below -->
+        <noscript>
+          <p>Our classes include Slow Flow Vinyasa, Reformer Pilates, Mat Pilates, Restorative Yoga, Power Yoga and Yin &amp; Breath. Please enable JavaScript to view the full timetable.</p>
+        </noscript>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIMETABLE -->
+  <section class="timetable" id="timetable" aria-labelledby="tt-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">Plan your week</p>
+        <h2 id="tt-title">Weekly timetable</h2>
+        <p class="section-sub">Filter by day and level, then book the class that fits your week.</p>
+      </header>
+
+      <div class="tt-controls reveal" role="group" aria-label="Filter timetable">
+        <div class="filter-block">
+          <label for="dayFilter">Day</label>
+          <select id="dayFilter">
+            <option value="all">All days</option>
+            <option value="Mon">Monday</option>
+            <option value="Tue">Tuesday</option>
+            <option value="Wed">Wednesday</option>
+            <option value="Thu">Thursday</option>
+            <option value="Fri">Friday</option>
+            <option value="Sat">Saturday</option>
+            <option value="Sun">Sunday</option>
+          </select>
+        </div>
+        <div class="filter-block">
+          <span class="filter-label" id="levelLabel">Level</span>
+          <div class="chip-row" role="group" aria-labelledby="levelLabel">
+            <button class="chip is-active" data-level="all" aria-pressed="true">All</button>
+            <button class="chip" data-level="Beginner" aria-pressed="false">Beginner</button>
+            <button class="chip" data-level="All levels" aria-pressed="false">All levels</button>
+            <button class="chip" data-level="Advanced" aria-pressed="false">Advanced</button>
+          </div>
+        </div>
+      </div>
+
+      <p class="tt-count" id="ttCount" aria-live="polite"></p>
+      <div class="tt-grid" id="ttGrid" role="list" aria-label="Class timetable"></div>
+      <p class="tt-empty" id="ttEmpty" hidden>No classes match those filters. Try widening your search.</p>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing" id="pricing" aria-labelledby="pricing-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">Membership &amp; drop-ins</p>
+        <h2 id="pricing-title">Simple pricing, no long contracts.</h2>
+        <p class="section-sub">Rolling memberships you can freeze or cancel any time. Or just drop in when it suits.</p>
+      </header>
+
+      <div class="billing-toggle reveal" role="group" aria-label="Billing period">
+        <span id="billMonthlyLbl" class="bill-opt is-active">Monthly</span>
+        <button class="switch" id="billToggle" role="switch" aria-checked="false" aria-label="Switch to annual billing (save 16%)">
+          <span class="switch-knob"></span>
+        </button>
+        <span id="billAnnualLbl" class="bill-opt">Annual <span class="save-pill">save 16%</span></span>
+      </div>
+
+      <div class="price-grid">
+        <article class="price-card reveal">
+          <h3>Drop-in</h3>
+          <p class="price"><span class="amount" data-monthly="16" data-annual="16">£16</span><span class="per">/ class</span></p>
+          <p class="price-note">Pay as you go. No commitment at all.</p>
+          <ul class="price-list">
+            <li>Any single class</li>
+            <li>Mats &amp; props included</li>
+            <li>Book up to 14 days ahead</li>
+          </ul>
+          <button class="btn btn--ghost book-trigger" data-plan="Drop-in">Choose drop-in</button>
+        </article>
+
+        <article class="price-card price-card--featured reveal">
+          <span class="badge">Most loved</span>
+          <h3>Unlimited</h3>
+          <p class="price"><span class="amount" data-monthly="89" data-annual="75">£89</span><span class="per">/ month</span></p>
+          <p class="price-note">Every class, every week. Our most popular plan.</p>
+          <ul class="price-list">
+            <li>Unlimited yoga &amp; mat pilates</li>
+            <li>2 reformer classes a month</li>
+            <li>Freeze up to 8 weeks a year</li>
+            <li>Bring a friend free, monthly</li>
+          </ul>
+          <button class="btn btn--primary book-trigger" data-plan="Unlimited">Choose unlimited</button>
+        </article>
+
+        <article class="price-card reveal">
+          <h3>Eight a month</h3>
+          <p class="price"><span class="amount" data-monthly="62" data-annual="52">£62</span><span class="per">/ month</span></p>
+          <p class="price-note">Eight classes a month for a steady, balanced practice.</p>
+          <ul class="price-list">
+            <li>8 classes each month</li>
+            <li>Includes 1 reformer class</li>
+            <li>Rolls over up to 4 unused</li>
+          </ul>
+          <button class="btn btn--ghost book-trigger" data-plan="Eight a month">Choose this plan</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSTRUCTORS -->
+  <section class="instructors" id="instructors" aria-labelledby="inst-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">Your teachers</p>
+        <h2 id="inst-title">Guided by people who practise daily.</h2>
+        <p class="section-sub">Experienced, accredited and genuinely kind. They are why people stay.</p>
+      </header>
+      <div class="inst-grid" id="instGrid"></div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials" aria-labelledby="test-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">Stories from the mat</p>
+        <h2 id="test-title">What our community says.</h2>
+      </header>
+      <div class="test-grid" id="testGrid"></div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter" id="newsletter" aria-labelledby="news-title">
+    <div class="container narrow newsletter-inner reveal">
+      <div>
+        <p class="eyebrow">Stay close</p>
+        <h2 id="news-title">A little calm in your inbox.</h2>
+        <p>Monthly notes on new classes, seasonal workshops and the occasional breathing practice. No noise, we promise.</p>
+      </div>
+      <form class="news-form" id="newsForm" novalidate>
+        <div class="field">
+          <label for="newsEmail" class="sr-only">Email address</label>
+          <input type="email" id="newsEmail" name="email" placeholder="you@example.com" autocomplete="email" required aria-describedby="newsError" />
+          <button class="btn btn--primary" type="submit">Subscribe</button>
+        </div>
+        <p class="form-error" id="newsError" role="alert" hidden></p>
+        <p class="form-success" id="newsSuccess" role="status" hidden>Lovely. You are on the list — see you in your inbox.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- VISIT / CONTACT -->
+  <section class="visit" id="visit" aria-labelledby="visit-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">Come and breathe</p>
+        <h2 id="visit-title">Visit the studio.</h2>
+        <p class="section-sub">Tucked into a quiet mews in Montpelier, two minutes from Picton Street.</p>
+      </header>
+
+      <div class="visit-grid">
+        <div class="visit-info reveal">
+          <ul class="contact-list">
+            <li>
+              <span class="ci-label">Address</span>
+              <a href="https://www.openstreetmap.org/?mlat=51.4669&amp;mlon=-2.5879#map=17/51.4669/-2.5879" target="_blank" rel="noopener">14 Picton Mews, Montpelier, Bristol BS6 5QA</a>
+            </li>
+            <li>
+              <span class="ci-label">Phone</span>
+              <a href="tel:+441174960182">0117 496 0182</a>
+            </li>
+            <li>
+              <span class="ci-label">WhatsApp</span>
+              <a href="https://wa.me/441174960182?text=Hi%20Stillwater%2C%20I%27d%20like%20to%20book%20a%20class" target="_blank" rel="noopener">Message us</a>
+            </li>
+            <li>
+              <span class="ci-label">Email</span>
+              <a href="mailto:hello@stillwaterstudio.co.uk">hello@stillwaterstudio.co.uk</a>
+            </li>
+            <li>
+              <span class="ci-label">Hours</span>
+              <span>Mon–Fri 6:30–21:00 · Sat–Sun 8:00–18:00</span>
+            </li>
+          </ul>
+
+          <h3 class="contact-sub">Send us a message</h3>
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="field-row">
+              <div class="field">
+                <label for="cfName">Name</label>
+                <input type="text" id="cfName" name="name" autocomplete="name" required />
+                <span class="field-msg" data-for="cfName"></span>
+              </div>
+              <div class="field">
+                <label for="cfEmail">Email</label>
+                <input type="email" id="cfEmail" name="email" autocomplete="email" required />
+                <span class="field-msg" data-for="cfEmail"></span>
+              </div>
+            </div>
+            <div class="field">
+              <label for="cfMsg">Message</label>
+              <textarea id="cfMsg" name="message" rows="4" required></textarea>
+              <span class="field-msg" data-for="cfMsg"></span>
+            </div>
+            <button class="btn btn--primary" type="submit">Send message</button>
+            <p class="form-success" id="cfSuccess" role="status" hidden>Thank you. We have your message and will reply within one working day.</p>
+          </form>
+        </div>
+
+        <div class="visit-map reveal">
+          <iframe
+            title="Map showing Stillwater Studio in Montpelier, Bristol"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=-2.5959%2C51.4629%2C-2.5799%2C51.4709&amp;layer=mapnik&amp;marker=51.4669%2C-2.5879"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq" aria-labelledby="faq-title">
+    <div class="container narrow">
+      <header class="section-head reveal">
+        <p class="eyebrow">Before you come</p>
+        <h2 id="faq-title">Questions, answered.</h2>
+      </header>
+      <div class="faq-list reveal">
+        <details>
+          <summary>I have never done yoga or pilates before. Where do I start?</summary>
+          <p>Our Beginner classes and Slow Flow Vinyasa are the gentlest places to begin. Arrive ten minutes early, tell your teacher it is your first time, and they will guide you through every pose. Mats and props are provided.</p>
+        </details>
+        <details>
+          <summary>Do I need to book in advance?</summary>
+          <p>We recommend booking ahead as classes are kept intentionally small. You can reserve any class from the timetable on this site, or drop in if there is space.</p>
+        </details>
+        <details>
+          <summary>What should I bring?</summary>
+          <p>Just comfortable clothing and a water bottle. We provide mats, blocks, straps, bolsters and blankets, plus showers and changing rooms on site.</p>
+        </details>
+        <details>
+          <summary>Can I freeze or cancel my membership?</summary>
+          <p>Yes. Memberships are rolling with no long contracts. You can freeze for up to eight weeks a year, or cancel any time with 30 days' notice.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="brand" href="#top" aria-label="Stillwater Studio home">
+        <svg class="brand-mark" width="30" height="30" viewBox="0 0 100 100" aria-hidden="true">
+          <path d="M18 60 Q34 48 50 60 T82 60" stroke="var(--sage)" stroke-width="5" fill="none" stroke-linecap="round"/>
+          <path d="M18 44 Q34 32 50 44 T82 44" stroke="var(--clay)" stroke-width="5" fill="none" stroke-linecap="round"/>
+        </svg>
+        <span class="brand-name">Stillwater<span class="brand-sub">Studio</span></span>
+      </a>
+      <p>A calm yoga and pilates studio in the heart of Montpelier, Bristol. Come as you are.</p>
+      <div class="socials" aria-label="Social media">
+        <a href="https://www.instagram.com/stillwaterstudio" target="_blank" rel="noopener" aria-label="Stillwater Studio on Instagram">
+          <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17" cy="7" r="1.2" fill="currentColor"/></svg>
+        </a>
+        <a href="https://www.facebook.com/stillwaterstudio" target="_blank" rel="noopener" aria-label="Stillwater Studio on Facebook">
+          <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h2V5h-2c-1.7 0-3 1.3-3 3v2H9v3h2v6h3v-6h2l1-3h-3V8.5c0-.3.2-.5.5-.5z" fill="currentColor"/></svg>
+        </a>
+        <a href="https://www.youtube.com/@stillwaterstudio" target="_blank" rel="noopener" aria-label="Stillwater Studio on YouTube">
+          <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="12" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M11 9.5l4 2.5-4 2.5z" fill="currentColor"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <nav class="footer-col" aria-label="Footer">
+      <h3>Studio</h3>
+      <ul>
+        <li><a href="#classes">Classes</a></li>
+        <li><a href="#timetable">Timetable</a></li>
+        <li><a href="#pricing">Membership</a></li>
+        <li><a href="#instructors">Teachers</a></li>
+      </ul>
+    </nav>
+
+    <div class="footer-col">
+      <h3>Visit</h3>
+      <ul>
+        <li><a href="https://www.openstreetmap.org/?mlat=51.4669&amp;mlon=-2.5879#map=17/51.4669/-2.5879" target="_blank" rel="noopener">14 Picton Mews, Montpelier</a></li>
+        <li>Bristol BS6 5QA</li>
+        <li><a href="tel:+441174960182">0117 496 0182</a></li>
+        <li><a href="mailto:hello@stillwaterstudio.co.uk">hello@stillwaterstudio.co.uk</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Hours</h3>
+      <ul>
+        <li>Mon–Fri · 6:30–21:00</li>
+        <li>Saturday · 8:00–18:00</li>
+        <li>Sunday · 8:00–18:00</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer-base">
+    <p>© <span id="year"></span> Stillwater Studio. A demo studio in Bristol.</p>
+    <p class="built-by">Demo site built by <a href="https://bozapps.co.uk" target="_blank" rel="noopener">BozApps — bozapps.co.uk</a></p>
+  </div>
+</footer>
+
+<!-- BOOKING MODAL -->
+<div class="modal" id="bookingModal" hidden>
+  <div class="modal-overlay" data-close></div>
+  <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle" id="modalPanel">
+    <button class="modal-close" id="modalClose" aria-label="Close booking">&times;</button>
+    <p class="eyebrow">Reserve your spot</p>
+    <h2 id="modalTitle">Book a class</h2>
+    <p class="modal-class" id="modalClassLine"></p>
+
+    <form id="bookingForm" novalidate>
+      <div class="field">
+        <label for="bkName">Your name</label>
+        <input type="text" id="bkName" name="name" autocomplete="name" required />
+        <span class="field-msg" data-for="bkName"></span>
+      </div>
+      <div class="field">
+        <label for="bkEmail">Email</label>
+        <input type="email" id="bkEmail" name="email" autocomplete="email" required />
+        <span class="field-msg" data-for="bkEmail"></span>
+      </div>
+      <fieldset class="field">
+        <legend>How would you like to pay?</legend>
+        <div class="option-row" id="bkOptions">
+          <label class="option"><input type="radio" name="option" value="Drop-in (£16)" required /><span>Drop-in <em>£16</em></span></label>
+          <label class="option"><input type="radio" name="option" value="Use membership credits" /><span>Membership <em>credits</em></span></label>
+          <label class="option"><input type="radio" name="option" value="Unlimited membership" /><span>Unlimited <em>member</em></span></label>
+        </div>
+        <span class="field-msg" data-for="bkOptions"></span>
+      </fieldset>
+
+      <button class="btn btn--primary btn--block" type="submit">Confirm booking</button>
+    </form>
+
+    <div class="booking-success" id="bookingSuccess" hidden>
+      <svg viewBox="0 0 52 52" width="56" height="56" aria-hidden="true"><circle cx="26" cy="26" r="24" fill="none" stroke="var(--sage)" stroke-width="2.5"/><path d="M16 27l7 7 14-15" fill="none" stroke="var(--sage)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <h3>You are booked in</h3>
+      <p id="bookingSuccessLine"></p>
+      <p class="booking-success-note">A confirmation would normally land in your inbox. This is a demo, so just imagine the calm.</p>
+      <button class="btn btn--ghost" id="bookingDone">Lovely, done</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
