@@ -1,3 +1,6 @@
+
+function __lf(s,w,h){var n=0,x=String(s);for(var i=0;i<x.length;i++){n=(n*31+x.charCodeAt(i))>>>0;}return 'https://loremflickr.com/'+w+'/'+h+'/yoga?lock='+(n%100000);}
+function __av(s){return 'https://i.pravatar.cc/200?u=stillwater'+encodeURIComponent(String(s));}
 /* ============================================================
    Stillwater Studio — vanilla JS
    ============================================================ */
@@ -86,7 +89,7 @@
       const card = document.createElement("article");
       card.className = "class-card reveal";
       card.innerHTML =
-        '<div class="class-card-img"><img src="https://picsum.photos/seed/sw-' + c.seed + '/600/380" alt="' + c.name + ' class in progress at Stillwater Studio" loading="lazy" width="600" height="380"></div>' +
+        '<div class="class-card-img"><img src="' + __lf('sw-' + c.seed, 600, 380) + '" alt="' + c.name + ' class in progress at Stillwater Studio" loading="lazy" width="600" height="380"></div>' +
         '<div class="class-card-body">' +
         '<span class="class-tag">' + c.level + '</span>' +
         '<h3>' + c.name + '</h3>' +
@@ -185,7 +188,7 @@
       const card = document.createElement("article");
       card.className = "inst-card reveal";
       card.innerHTML =
-        '<div class="inst-photo"><img src="https://picsum.photos/seed/sw-' + i.seed + '/420/420" alt="Portrait of ' + i.name + ', ' + i.role + '" loading="lazy" width="420" height="420"></div>' +
+        '<div class="inst-photo"><img src="' + __lf('sw-' + i.seed, 420, 420) + '" alt="Portrait of ' + i.name + ', ' + i.role + '" loading="lazy" width="420" height="420"></div>' +
         '<div class="inst-body"><h3>' + i.name + '</h3><p class="inst-role">' + i.role + '</p><p>' + i.bio + '</p></div>';
       instGrid.appendChild(card);
     });
@@ -205,7 +208,7 @@
       card.innerHTML =
         '<div class="stars" role="img" aria-label="' + t.stars + ' out of 5 stars">' + stars + '</div>' +
         '<blockquote class="test-quote">' + t.quote + '</blockquote>' +
-        '<div class="test-author"><span class="test-avatar"><img src="https://picsum.photos/seed/sw-' + t.seed + '/84/84" alt="" loading="lazy" width="42" height="42"></span>' +
+        '<div class="test-author"><span class="test-avatar"><img src="' + __av('sw-' + t.seed) + '" alt="" loading="lazy" width="42" height="42"></span>' +
         '<span><span class="test-name">' + t.name + '</span><br><span class="test-meta">' + t.meta + '</span></span></div>';
       testGrid.appendChild(card);
     });
